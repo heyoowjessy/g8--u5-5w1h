@@ -82,9 +82,9 @@
     .controlRow{display:flex;justify-content:center;gap:16px;margin:18px 0}.bigBtn{border:0;border-radius:999px;padding:16px 26px;font-size:24px;font-weight:900;cursor:pointer;background:var(--sand);color:var(--brown);box-shadow:var(--shadow);font-family:"Times New Roman", Times, serif}.bigBtn.alt{background:#d8e0c0}
 
     .miniGrid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:18px}.miniCard{background:var(--card);border-radius:20px;padding:14px 10px;text-align:center;font-size:21px;font-weight:900;box-shadow:var(--shadow);cursor:pointer;min-height:70px;display:flex;align-items:center;justify-content:center;border:2px solid rgba(111,125,82,.18)}.miniCard:hover{background:#f3dfbd;transform:translateY(-3px)}
-    .vocabCard{font-size:55px}.whCard{color:#3f2f24}#whButtons{grid-template-columns:repeat(3,1fr)}.wh0{background:#f7d9d0}.wh1{background:#d9ead3}.wh2{background:#d7e5f0}.wh3{background:#fff0c9}.wh4{background:#eadcf8}.wh5{background:#ffd9c7}
+    .vocabCard{font-size:34px}.wordBox{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}.wordTile{background:#f3dfbd;border:3px solid #b8734f;border-radius:18px;padding:12px;text-align:center;font-size:28px;font-weight:900;cursor:grab;user-select:none;touch-action:none;box-shadow:var(--shadow)}.wrongMark{position:fixed;inset:0;display:none;align-items:center;justify-content:center;font-size:180px;font-weight:900;color:#dc2626;background:rgba(255,255,255,.35);z-index:99999;pointer-events:none}.wrongMark.show{display:flex;animation:xpop .45s ease}.correctMark{position:fixed;inset:0;display:none;align-items:center;justify-content:center;font-size:180px;font-weight:900;color:#16a34a;background:rgba(255,255,255,.35);z-index:99999;pointer-events:none}.correctMark.show{display:flex;animation:xpop .45s ease}@keyframes xpop{from{transform:scale(.7);opacity:.4}to{transform:scale(1);opacity:1}}.wordTile:active{cursor:grabbing}.chineseDropGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}.dropTarget{background:var(--card);border:3px dashed #9caf88;border-radius:18px;min-height:100px;padding:10px;text-align:center;font-size:34px;font-weight:900;display:flex;flex-direction:column;align-items:center;justify-content:center}.dropTarget.filled{border-style:solid;background:#d9ead3}.dropAnswer{font-size:28px;color:#3f2f24;margin-top:8px}.dragGhost{position:fixed;z-index:9999;pointer-events:none;opacity:.9;transform:scale(1.05)}.whCard{color:#3f2f24}#whButtons{grid-template-columns:repeat(3,1fr)}.wh0{background:#f7d9d0}.wh1{background:#d9ead3}.wh2{background:#d7e5f0}.wh3{background:#fff0c9}.wh4{background:#eadcf8}.wh5{background:#ffd9c7}
 
-    .disasterGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.disasterIcon{background:var(--card);border-radius:30px;padding:28px;min-height:210px;text-align:center;box-shadow:var(--shadow);cursor:pointer;display:flex;flex-direction:column;justify-content:center;align-items:center;border:2px solid rgba(63,47,36,.08)}.disasterIcon:hover{transform:translateY(-5px);background:#f3dfbd}.disasterIcon .emoji{font-size:74px}.disasterIcon h3{font-size:26px;margin:14px 0 0}.articleReveal{display:none;margin-top:22px}.articleReveal.show{display:block}.articleReveal h3{font-size:50px;margin:0 0 10px;font-family:"Times New Roman", Times, serif}.articleReveal p{font-size:50px;line-height:1.2;font-family:"Times New Roman", Times, serif}.articlePhoto{width:100%;max-width:360px;border-radius:20px;box-shadow:0 10px 25px rgba(63,47,36,.22);background:#f7ead7;object-fit:cover}.newsExample{margin:14px 0;padding:16px;border-radius:20px;background:#f3dfbd;border-left:8px solid var(--clay)}.newsExample h4{font-size:25px;margin:0 0 8px}.newsExample p{font-size:21px;line-height:1.4;margin:6px 0}.lessonNewsBox{margin-top:18px}.lessonNewsBox h3{font-size:30px;margin:0 0 10px}.lessonNewsBox p{font-size:45px;line-height:1.2}.lessonNewsBox h3{font-size:45px}.lessonQuestion{display:none;font-size:20px;line-height:1.35;margin-top:8px}.questionSquare.open .lessonQuestion{display:block}.questionSquares{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:14px;margin-top:18px}.questionSquare{border-radius:22px;padding:16px;background:#f3dfbd;box-shadow:0 8px 18px rgba(63,47,36,.14);font-size:22px;line-height:1.3}.questionSquare b{font-size:30px;display:block;color:#3f2f24;margin-bottom:5px}.questionAnswer{display:none;margin-top:8px;font-size:20px;line-height:1.35}.questionSquare.open .questionAnswer{display:block}.qWho{background:#f7d9d0}.qWhat{background:#d9ead3}.qWhen{background:#fff0c9}.qWhere{background:#d7e5f0}.qWhy{background:#eadcf8}.qHow{background:#ffd9c7}.source{font-size:14px;color:#7a6a58}
+    .disasterGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.disasterIcon{background:var(--card);border-radius:30px;padding:28px;min-height:210px;text-align:center;box-shadow:var(--shadow);cursor:pointer;display:flex;flex-direction:column;justify-content:center;align-items:center;border:2px solid rgba(63,47,36,.08)}.disasterIcon:hover{transform:translateY(-5px);background:#f3dfbd}.disasterIcon .emoji{font-size:74px}.disasterIcon h3{font-size:26px;margin:14px 0 0}.articleReveal{display:none;margin-top:22px}.articleReveal.show{display:block}.articleReveal h3{font-size:50px;margin:0 0 10px;font-family:"Times New Roman", Times, serif}.articleReveal p{font-size:50px;line-height:1.2;font-family:"Times New Roman", Times, serif}.articlePhoto{width:100%;max-width:360px;border-radius:20px;box-shadow:0 10px 25px rgba(63,47,36,.22);background:#f7ead7;object-fit:cover}.newsExample{margin:14px 0;padding:16px;border-radius:20px;background:#f3dfbd;border-left:8px solid var(--clay)}.newsExample h4{font-size:25px;margin:0 0 8px}.newsExample p{font-size:21px;line-height:1.4;margin:6px 0}.lessonNewsBox{margin-top:18px;font-family:"Times New Roman", Times, serif}.lessonNewsBox h3{font-size:30px;margin:0 0 10px}.lessonNewsBox p{font-size:45px;line-height:1.2}.lessonNewsBox h3{font-size:45px}.lessonQuestion{display:none;font-size:20px;line-height:1.35;margin-top:8px}.questionSquare.open .lessonQuestion{display:block}.questionSquares{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:14px;margin-top:18px}.questionSquare{border-radius:22px;padding:16px;background:#f3dfbd;box-shadow:0 8px 18px rgba(63,47,36,.14);font-size:22px;line-height:1.3}.questionSquare b{font-size:30px;display:block;color:#3f2f24;margin-bottom:5px}.questionAnswer{display:none;margin-top:8px;font-size:20px;line-height:1.35}.questionSquare.open .questionAnswer{display:block}.qWho{background:#f7d9d0}.qWhat{background:#d9ead3}.qWhen{background:#fff0c9}.qWhere{background:#d7e5f0}.qWhy{background:#eadcf8}.qHow{background:#ffd9c7}.source{font-size:14px;color:#7a6a58}
 
     .pillrow{display:flex;flex-wrap:wrap;gap:10px}.pill{border:0;border-radius:999px;padding:14px 18px;font-size:18px;font-weight:900;cursor:pointer;background:#e8d9c4;color:var(--brown);font-family:"Times New Roman", Times, serif}.pill:hover{background:#d8e0c0}.speakBox{font-size:34px;line-height:1.5;background:var(--card);border-radius:28px;padding:32px;box-shadow:var(--shadow);min-height:170px}.answer{display:none;background:#d8e0c0;border-left:8px solid var(--moss);border-radius:18px;padding:20px;margin-top:16px;font-size:28px}.show{display:block}.match{display:grid;grid-template-columns:1fr 1fr;gap:18px}.match button{border:0;border-radius:20px;padding:16px;font-size:19px;font-weight:900;cursor:pointer;background:var(--card);box-shadow:var(--shadow);font-family:"Times New Roman", Times, serif}.match button.selected{outline:6px solid var(--sand)}.match button.correct{background:#d9ead3}.match button.wrong{background:#f7d9d0}.score{font-size:24px;font-weight:900;background:var(--card);border-radius:18px;padding:12px 18px;display:inline-block}.footerNote{font-size:14px;color:#7a6a58;margin-top:20px}
     @media(max-width:900px){.app{grid-template-columns:1fr}aside{position:fixed;bottom:0;left:0;right:0;height:170px;overflow-x:auto;flex-direction:row}.brand,.picker,.tools{display:none}.navbtn{min-width:170px}.slide{padding-bottom:190px}.hero h2{font-size:48px}.hero p{font-size:22px}.centerPanel h3{font-size:42px}.centerPanel p{font-size:24px}.miniGrid,.disasterGrid,.questionSquares{grid-template-columns:1fr 1fr}}
@@ -103,6 +103,8 @@
     <div class="picker"><h3>Random Number Picker</h3><div class="pickrow"><button onclick="pickNum()">Random</button><button onclick="resetNum()">Reset</button></div><div id="pickedNumber">?</div></div>
   </aside>
 
+  <div id="wrongMark" class="wrongMark">✖</div>
+  <div id="correctMark" class="correctMark">✓</div>
   <main id="mainArea">
     <section class="slide active">
       <div class="hero"></div>
@@ -110,9 +112,11 @@
 
     <section class="slide">
       <h2 class="title">Vocabulary Review</h2>
-      <div class="miniGrid" id="vocabButtons"></div>
-      <div class="centerPanel hidden" id="vocabPanel"></div>
-      <div class="controlRow"><button class="bigBtn alt" onclick="prevVocab()">Previous</button><button class="bigBtn" onclick="nextVocab()">Next</button></div>
+      <div class="card">
+        <h3 style="font-size:34px;margin:0 0 10px;">Word Box</h3>
+        <div class="wordBox" id="wordBox"></div>
+      </div>
+      <div class="chineseDropGrid" id="chineseDropGrid"></div>
     </section>
 
     <section class="slide">
@@ -177,21 +181,112 @@ function resetZoom(){zoomLevel=1;setZoom()}
 function toggleFullScreen(){if(!document.fullscreenElement){document.documentElement.requestFullscreen()}else{document.exitFullscreen()}}
 
 const vocab=[
- {w:'earthquake',pos:'noun',m:'a sudden shaking of the ground',ex:'A strong earthquake shook the city at night.'},
- {w:'typhoon',pos:'noun',m:'a very strong storm with heavy rain and strong wind',ex:'The typhoon brought heavy rain to the Philippines.'},
- {w:'flood',pos:'noun / verb',m:'water covering land that is usually dry',ex:'The streets flooded after many hours of rain.'},
- {w:'tsunami',pos:'noun',m:'a very large ocean wave, often caused by an earthquake under the sea',ex:'People moved to higher ground after the tsunami warning.'},
- {w:'volcanic eruption',pos:'noun phrase',m:'when lava, ash, or gas comes out of a volcano',ex:'The volcanic eruption sent ash into the sky.'},
- {w:'wildfire',pos:'noun',m:'a large fire that spreads quickly in forests or grasslands',ex:'Firefighters worked hard to stop the wildfire.'},
- {w:'evacuate',pos:'verb',m:'to leave a dangerous place and go somewhere safer',ex:'Families had to evacuate before the flood reached their homes.'},
- {w:'prepare',pos:'verb',m:'to get ready before something happens',ex:'We prepare an emergency bag before typhoon season.'},
- {w:'emergency bag',pos:'noun phrase',m:'a bag with important items for disasters',ex:'An emergency bag should have water, food, medicine, and a flashlight.'},
- {w:'safety tips',pos:'noun phrase',m:'simple advice that helps people stay safe',ex:'The teacher gave safety tips before the earthquake drill.'}
+ {zh:'地震',w:'earthquake',pos:'noun',m:'the ground shakes suddenly',ex:'The earthquake shook the school.'},
+ {zh:'颱風',w:'typhoon',pos:'noun',m:'a strong storm with heavy rain and wind',ex:'The typhoon brought heavy rain.'},
+ {zh:'洪水',w:'flood',pos:'noun / verb',m:'too much water on the land',ex:'The flood covered the road.'},
+ {zh:'拉',w:'pull',pos:'verb',m:'to move something closer to you',ex:'Pull the door to open it.'},
+ {zh:'推',w:'push',pos:'verb',m:'to move something away from you',ex:'Push the table carefully.'},
+ {zh:'遮蓋',w:'cover',pos:'verb / noun',m:'to put something over another thing',ex:'Cover your head during an earthquake.'},
+ {zh:'緊急避難包',w:'emergency bag',pos:'noun phrase',m:'a bag with things you need in an emergency',ex:'Put water and a flashlight in your emergency bag.'},
+ {zh:'新聞',w:'news',pos:'noun',m:'new information about what happened',ex:'We watched the news about the typhoon.'},
+ {zh:'收音機',w:'radio',pos:'noun',m:'a tool for listening to news and information',ex:'Use a radio during an emergency.'},
+ {zh:'疏散',w:'evacuate',pos:'verb',m:'to leave a dangerous place',ex:'People evacuate during a big flood.'},
+ {zh:'煙',w:'smoke',pos:'noun',m:'gray or black air from fire',ex:'Smoke came from the wildfire.'},
+ {zh:'手電筒',w:'flashlight',pos:'noun',m:'a small light you can carry',ex:'Use a flashlight when the power is out.'},
+ {zh:'蠟燭',w:'candle',pos:'noun',m:'a small stick of wax that gives light',ex:'We used a candle during the blackout.'},
+ {zh:'電梯',w:'elevator',pos:'noun',m:'a machine that carries people up and down in a building',ex:'Do not use the elevator during an earthquake.'},
+ {zh:'救援人員',w:'rescuer',pos:'noun',m:'a person who helps people in danger',ex:'The rescuer helped the family leave the flood.'}
 ];
 let vocabIndex=0;
-document.getElementById('vocabButtons').innerHTML=vocab.map((v,i)=>`<div class="miniCard vocabCard" onclick="showVocab(${i})">${v.w}</div>`).join('');
-function showVocab(i){vocabIndex=(i+vocab.length)%vocab.length; const v=vocab[vocabIndex]; const panel=document.getElementById('vocabPanel'); panel.classList.remove('hidden'); panel.innerHTML=`<h3>${v.w}</h3><div class="tag">${v.pos}</div><p><b>Meaning:</b> ${v.m}</p><div class="example"><b>Sentence:</b> ${v.ex}</div>`}
-function nextVocab(){showVocab(vocabIndex+1)}function prevVocab(){showVocab(vocabIndex-1)}
+const wordBox=document.getElementById('wordBox');
+const chineseDropGrid=document.getElementById('chineseDropGrid');
+wordBox.innerHTML=vocab.map((v,i)=>`<div class="wordTile" data-index="${i}">${v.w}</div>`).join('');
+const alphabet='abcdefghijklmnopqrstuvwxyz'.split('');
+chineseDropGrid.innerHTML=vocab.map((v,i)=>`<div class="dropTarget" data-index="${i}"><div>${alphabet[i]}. ${v.zh}</div><div class="dropAnswer"></div></div>`).join('');
+let dragTile=null, ghost=null, selectedIndex=null;
+document.querySelectorAll('.wordTile').forEach(tile=>{
+  tile.addEventListener('pointerdown',startDrag);
+  tile.addEventListener('click',()=>{selectedIndex=tile.dataset.index;document.querySelectorAll('.wordTile').forEach(t=>t.style.outline='none');tile.style.outline='6px solid #9caf88';});
+});
+document.querySelectorAll('.dropTarget').forEach(target=>{
+  target.addEventListener('click',()=>{if(selectedIndex!==null){fillTarget(target,selectedIndex);selectedIndex=null;document.querySelectorAll('.wordTile').forEach(t=>t.style.outline='none');}});
+});
+function startDrag(e){
+  dragTile=e.currentTarget;
+  selectedIndex=dragTile.dataset.index;
+  ghost=dragTile.cloneNode(true);
+  ghost.classList.add('dragGhost');
+  document.body.appendChild(ghost);
+  moveGhost(e.clientX,e.clientY);
+  dragTile.setPointerCapture(e.pointerId);
+  dragTile.addEventListener('pointermove',dragMove);
+  dragTile.addEventListener('pointerup',endDrag,{once:true});
+}
+function dragMove(e){moveGhost(e.clientX,e.clientY)}
+function moveGhost(x,y){if(ghost){ghost.style.left=(x-70)+'px';ghost.style.top=(y-25)+'px';}}
+function endDrag(e){
+  dragTile.removeEventListener('pointermove',dragMove);
+  const el=document.elementFromPoint(e.clientX,e.clientY);
+  const target=el?el.closest('.dropTarget'):null;
+  if(target){fillTarget(target,selectedIndex)}
+  if(ghost){ghost.remove();ghost=null}
+  dragTile=null;selectedIndex=null;
+}
+function fillTarget(target,index){
+  const v=vocab[index];
+  if(String(index)===target.dataset.index){
+    target.classList.add('filled');
+    target.querySelector('.dropAnswer').innerHTML=`${v.w}<br><span style="font-size:20px;font-weight:700;">${v.pos} · ${v.m}<br>${v.ex}</span>`;
+    const matchedTile=document.querySelector(`.wordTile[data-index="${index}"]`);
+    if(matchedTile){matchedTile.remove();}
+    playCorrectSound();
+    showCorrectCheck();
+  }else{
+    playBuzzer();
+    showWrongX();
+    target.style.background='#f7d9d0';
+    setTimeout(()=>target.style.background='',400);
+  }
+}
+function playBuzzer(){
+  try{
+    const AudioContext=window.AudioContext||window.webkitAudioContext;
+    const ctx=new AudioContext();
+    const osc=ctx.createOscillator();
+    const gain=ctx.createGain();
+    osc.type='square';
+    osc.frequency.setValueAtTime(120,ctx.currentTime);
+    gain.gain.setValueAtTime(0.18,ctx.currentTime);
+    osc.connect(gain);gain.connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime+0.35);
+  }catch(e){}
+}
+function showWrongX(){
+  const mark=document.getElementById('wrongMark');
+  mark.classList.add('show');
+  setTimeout(()=>mark.classList.remove('show'),550);
+}
+function playCorrectSound(){
+  try{
+    const AudioContext=window.AudioContext||window.webkitAudioContext;
+    const ctx=new AudioContext();
+    const osc=ctx.createOscillator();
+    const gain=ctx.createGain();
+    osc.type='sine';
+    osc.frequency.setValueAtTime(520,ctx.currentTime);
+    osc.frequency.setValueAtTime(780,ctx.currentTime+0.12);
+    gain.gain.setValueAtTime(0.16,ctx.currentTime);
+    osc.connect(gain);gain.connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime+0.28);
+  }catch(e){}
+}
+function showCorrectCheck(){
+  const mark=document.getElementById('correctMark');
+  mark.classList.add('show');
+  setTimeout(()=>mark.classList.remove('show'),550);
+}
 
 const lessonQuestions=[
  {w:'Who?',q:'Who is the news about?'},
@@ -202,9 +297,9 @@ const lessonQuestions=[
  {w:'How?',q:'How did people respond or how did it happen?'}
 ];
 const lessonNews=[
- {title:'1. Volcanic Eruption in Hawaii This May',text:'This May, Kīlauea volcano in Hawaii showed new eruption activity. Scientists watched the volcano closely. They checked lava, gas, and safety risks. Visitors and people near the area were told to follow official safety updates. The news is important because volcanic activity can change quickly.'},
- {title:'2. Oil Price in Taiwan',text:'This month, people in Taiwan watched fuel prices because oil prices can change transportation costs. Drivers, families, and businesses may spend more money when oil prices go up. The price can change because of world supply, demand, and international events. People can save money by planning trips and using public transportation.'},
- {title:'3. Famous Attraction in Taiwan',text:'Taipei 101 is one of the most famous attractions in Taiwan. Many local and foreign visitors go there to see the city view, take photos, eat food, and shop. It is located in Taipei. It is important because it shows Taiwan’s modern city life and attracts many tourists.'}
+ {title:'1. Volcanic Eruption in Hawaii This May',text:'This May, Kīlauea volcano in Hawaii had new activity. Scientists watched the volcano. They checked lava and gas. Visitors stayed away from unsafe places. People followed safety news.'},
+ {title:'2. Oil Price in Taiwan',text:'This month, people in Taiwan watched oil prices. Oil prices can make bus, car, and delivery costs higher. Drivers and families may spend more money. People can save money by using buses or trains.'},
+ {title:'3. Famous Attraction in Taiwan',text:'Taipei 101 is a famous place in Taiwan. It is in Taipei. Many people visit it. They see the city, take photos, eat food, and shop. Many tourists like Taipei 101.'}
 ];
 let lessonIndex=0;
 document.getElementById('lessonQuestionSquares').innerHTML=lessonQuestions.map((x,i)=>`<div class="questionSquare ${['qWho','qWhat','qWhere','qWhen','qWhy','qHow'][i]}" onclick="this.classList.toggle('open')"><b>${x.w}</b><div class="lessonQuestion">${x.q}</div></div>`).join('');
@@ -214,12 +309,12 @@ function prevLessonNews(){showLessonNews(lessonIndex-1)}
 showLessonNews(0);
 
 const news=[
- {emoji:'🌏',type:'Earthquake in Taiwan',img:'earthquake',where:'Hualien and eastern Taiwan',when:'April 2024',who:'students, workers, families, and rescue workers in eastern Taiwan',what:'a strong earthquake shook buildings, roads, and homes',why:'Taiwan is near active fault lines, so earthquakes can happen',how:'people evacuated unsafe buildings, listened to official news, and prepared emergency bags',whoQ:'Who felt the earthquake?',whatQ:'What happened in Taiwan?',whenQ:'When did it happen?',whereQ:'Where did it happen?',whyQ:'Why do earthquakes happen in Taiwan?',howQ:'How did people stay safe?',text:'In April 2024, a strong earthquake shook Hualien and eastern Taiwan. Students, workers, and families felt the ground move. Rescue workers checked roads and homes after the earthquake. Taiwan has active fault lines, so earthquakes can happen. People stayed safe by leaving unsafe buildings and listening to official news.',source:'Recent Taiwan earthquake reports'},
- {emoji:'🌀',type:'Typhoon in the Philippines',img:'typhoon',where:'northern and central Philippines',when:'during typhoon season on a Friday evening',who:'families, students, weather officers, and local responders',what:'a typhoon brought strong wind and heavy rain',why:'warm ocean water helped the typhoon become stronger',how:'families prepared food, water, flashlights, medicine, and stayed indoors',whoQ:'Who warned the families?',whatQ:'What came to the Philippines?',whenQ:'When did the typhoon arrive?',whereQ:'Where did the typhoon happen?',whyQ:'Why can typhoons become strong?',howQ:'How did families prepare?',text:'On a Friday evening during typhoon season, a typhoon brought strong wind and heavy rain to the Philippines. Weather officers warned families before it arrived. Some students stayed home because roads were dangerous. Warm ocean water helped the typhoon become stronger. Families prepared food, water, flashlights, and medicine.',source:'Recent Philippine weather reports'},
- {emoji:'🌊',type:'Flood in the Philippines',img:'flood',where:'low areas and towns in the Philippines',when:'Saturday morning after many hours of heavy rain',who:'families, rescue workers, and local officials',what:'floodwater covered roads and entered some homes',why:'rivers and drainage systems overflowed after nonstop rain',how:'rescue workers used boats and trucks to bring families to safer places',whoQ:'Who helped the families?',whatQ:'What covered the roads?',whenQ:'When did the flood happen?',whereQ:'Where did the flood happen?',whyQ:'Why did the flood happen?',howQ:'How did rescue workers help?',text:'On Saturday morning, after many hours of rain, floodwater covered roads in some towns in the Philippines. Families near rivers moved to evacuation centers. Local officials warned people not to walk or drive in deep water. Rivers and drainage systems overflowed after nonstop rain. Rescue workers used boats and trucks to help families.',source:'Recent flood reports'},
- {emoji:'🚨',type:'Tsunami in Japan',img:'tsunami',where:'coastal areas of Japan',when:'after a strong earthquake near the sea',who:'people near the coast, weather officers, and local leaders',what:'Japan gave a tsunami warning for some coastal areas',why:'a strong earthquake under or near the sea can push ocean water and make big waves',how:'people moved to higher ground and waited for official updates',whoQ:'Who moved to higher ground?',whatQ:'What warning did Japan give?',whenQ:'When did the warning happen?',whereQ:'Where was the warning?',whyQ:'Why can a tsunami happen?',howQ:'How did people stay safe?',text:'After a strong earthquake near the sea on Tuesday morning, Japan gave a tsunami warning for coastal areas. People near the sea moved to higher ground. Weather officers watched the ocean and gave updates. A tsunami can happen when an earthquake pushes ocean water. People stayed safe by leaving the coast and waiting for official announcements.',source:'Recent Japan tsunami alert reports'},
- {emoji:'🌋',type:'Volcanic Eruption in Hawaii',img:'volcano',where:'Kīlauea volcano, Hawaii',when:'during recent volcanic activity',who:'scientists, visitors, and nearby residents',what:'Kīlauea volcano showed eruption activity with lava and gas',why:'pressure under the volcano pushed lava and gas to the surface',how:'scientists watched the volcano, and people followed safety rules and official updates',whoQ:'Who watched the volcano?',whatQ:'What volcano showed activity?',whenQ:'When did it happen?',whereQ:'Where is Kīlauea?',whyQ:'Why can a volcano erupt?',howQ:'How can people stay safe?',text:'This May, Kīlauea volcano in Hawaii showed eruption activity with lava and gas. Scientists watched the volcano and shared safety updates every day. Visitors and nearby residents followed rules and stayed away from unsafe areas. Pressure under the volcano pushed lava and gas to the surface. People stayed safe by following official updates.',source:'USGS Hawaiian Volcano Observatory'},
- {emoji:'🔥',type:'Wildfire in Australia',img:'wildfire',where:'parts of Australia with dry grassland and forests',when:'during hot and dry weather',who:'firefighters, families, farmers, and local communities',what:'a wildfire burned land and damaged some homes and farms',why:'hot weather, dry plants, and strong wind helped the fire spread fast',how:'firefighters worked to stop the fire, and people followed warnings or evacuated',whoQ:'Who worked to stop the fire?',whatQ:'What happened in Australia?',whenQ:'When can wildfires happen?',whereQ:'Where did the wildfire happen?',whyQ:'Why can wildfires spread fast?',howQ:'How did people stay safe?',text:'Last summer, during hot and dry weather, a wildfire burned land in parts of Australia. Some homes, farms, and forests were damaged. Firefighters worked for many hours to stop the fire. Hot weather, dry plants, and strong wind helped the fire spread fast. People stayed safe by following warnings and evacuating when needed.',source:'Recent Australia wildfire reports'}
+ {emoji:'🌏',type:'Earthquake in Taiwan',img:'earthquake',where:'Hualien and eastern Taiwan',when:'April 2024',who:'students, workers, families, and rescue workers in eastern Taiwan',what:'a strong earthquake shook buildings, roads, and homes',why:'Taiwan is near active fault lines, so earthquakes can happen',how:'people evacuated unsafe buildings, listened to official news, and prepared emergency bags',whoQ:'Who felt the earthquake?',whatQ:'What happened in Taiwan?',whenQ:'When did it happen?',whereQ:'Where did it happen?',whyQ:'Why do earthquakes happen in Taiwan?',howQ:'How did people stay safe?',text:'In April 2024, a strong earthquake shook Hualien and eastern Taiwan. Students, workers, and families felt the ground move. Rescuers checked roads and homes. Taiwan has fault lines. People stayed safe by leaving unsafe buildings and listening to the news.',source:'Recent Taiwan earthquake reports'},
+ {emoji:'🌀',type:'Typhoon in the Philippines',img:'typhoon',where:'northern and central Philippines',when:'during typhoon season on a Friday evening',who:'families, students, weather officers, and local responders',what:'a typhoon brought strong wind and heavy rain',why:'warm ocean water helped the typhoon become stronger',how:'families prepared food, water, flashlights, medicine, and stayed indoors',whoQ:'Who warned the families?',whatQ:'What came to the Philippines?',whenQ:'When did the typhoon arrive?',whereQ:'Where did the typhoon happen?',whyQ:'Why can typhoons become strong?',howQ:'How did families prepare?',text:'On a Friday evening, a typhoon brought strong wind and heavy rain to the Philippines. Weather officers warned families. Some students stayed home because roads were dangerous. Families prepared food, water, flashlights, and a radio.',source:'Recent Philippine weather reports'},
+ {emoji:'🌊',type:'Flood in the Philippines',img:'flood',where:'low areas and towns in the Philippines',when:'Saturday morning after many hours of heavy rain',who:'families, rescue workers, and local officials',what:'floodwater covered roads and entered some homes',why:'rivers and drainage systems overflowed after nonstop rain',how:'rescue workers used boats and trucks to bring families to safer places',whoQ:'Who helped the families?',whatQ:'What covered the roads?',whenQ:'When did the flood happen?',whereQ:'Where did the flood happen?',whyQ:'Why did the flood happen?',howQ:'How did rescue workers help?',text:'On Saturday morning, floodwater covered roads in some towns in the Philippines. Families near rivers moved to safe places. Officials told people not to walk or drive in deep water. Rescuers used boats and trucks to help families.',source:'Recent flood reports'},
+ {emoji:'🚨',type:'Tsunami in Japan',img:'tsunami',where:'coastal areas of Japan',when:'after a strong earthquake near the sea',who:'people near the coast, weather officers, and local leaders',what:'Japan gave a tsunami warning for some coastal areas',why:'a strong earthquake under or near the sea can push ocean water and make big waves',how:'people moved to higher ground and waited for official updates',whoQ:'Who moved to higher ground?',whatQ:'What warning did Japan give?',whenQ:'When did the warning happen?',whereQ:'Where was the warning?',whyQ:'Why can a tsunami happen?',howQ:'How did people stay safe?',text:'On Tuesday morning, a strong earthquake happened near the sea. Japan gave a tsunami warning. People near the sea moved to higher ground. Weather officers watched the ocean. People stayed safe by leaving the coast.',source:'Recent Japan tsunami alert reports'},
+ {emoji:'🌋',type:'Volcanic Eruption in Hawaii',img:'volcano',where:'Kīlauea volcano, Hawaii',when:'during recent volcanic activity',who:'scientists, visitors, and nearby residents',what:'Kīlauea volcano showed eruption activity with lava and gas',why:'pressure under the volcano pushed lava and gas to the surface',how:'scientists watched the volcano, and people followed safety rules and official updates',whoQ:'Who watched the volcano?',whatQ:'What volcano showed activity?',whenQ:'When did it happen?',whereQ:'Where is Kīlauea?',whyQ:'Why can a volcano erupt?',howQ:'How can people stay safe?',text:'This May, Kīlauea volcano in Hawaii showed lava and gas. Scientists watched the volcano every day. Visitors and nearby people followed safety rules. They stayed away from unsafe places and listened to updates.',source:'USGS Hawaiian Volcano Observatory'},
+ {emoji:'🔥',type:'Wildfire in Australia',img:'wildfire',where:'parts of Australia with dry grassland and forests',when:'during hot and dry weather',who:'firefighters, families, farmers, and local communities',what:'a wildfire burned land and damaged some homes and farms',why:'hot weather, dry plants, and strong wind helped the fire spread fast',how:'firefighters worked to stop the fire, and people followed warnings or evacuated',whoQ:'Who worked to stop the fire?',whatQ:'What happened in Australia?',whenQ:'When can wildfires happen?',whereQ:'Where did the wildfire happen?',whyQ:'Why can wildfires spread fast?',howQ:'How did people stay safe?',text:'Last summer, a wildfire burned land in parts of Australia. Some homes, farms, and forests were damaged. Firefighters worked to stop the fire. Smoke was in the air. People followed warnings and evacuated.',source:'Recent Australia wildfire reports'}
 ];
 document.getElementById('newsIcons').innerHTML=news.map((n,i)=>`<div class="disasterIcon" onclick="showArticle(${i})"><div class="emoji">${n.emoji}</div><h3>${n.type}</h3></div>`).join('');
 function showArticle(i){const n=news[i]; const box=document.getElementById('articleBox'); const imageSrc=`${n.img}.png`; const fallbackSrc=`${n.img}.jpg`; box.innerHTML=`<h3>${n.emoji} ${n.type}</h3><div style="display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap;"><div style="flex:1;min-width:260px;text-align:center;"><img class="articlePhoto" src="${imageSrc}" onerror="this.onerror=null;this.src='${fallbackSrc}'" alt="${n.type} image"></div><div style="flex:2;min-width:300px;"><p>${n.text}</p></div><div style="flex:1;min-width:180px;text-align:center;"><img src="qrcode.png" alt="QR Code" style="width:160px;height:160px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.2);"><p style="font-size:18px;font-weight:bold;">Scan to read the full passage</p></div></div><div class="questionSquares"><div class="questionSquare qWho" onclick="this.classList.toggle('open')"><b>Who?</b><div class="questionAnswer">${n.whoQ}</div></div><div class="questionSquare qWhat" onclick="this.classList.toggle('open')"><b>What?</b><div class="questionAnswer">${n.whatQ}</div></div><div class="questionSquare qWhen" onclick="this.classList.toggle('open')"><b>When?</b><div class="questionAnswer">${n.whenQ}</div></div><div class="questionSquare qWhere" onclick="this.classList.toggle('open')"><b>Where?</b><div class="questionAnswer">${n.whereQ}</div></div><div class="questionSquare qWhy" onclick="this.classList.toggle('open')"><b>Why?</b><div class="questionAnswer">${n.whyQ}</div></div><div class="questionSquare qHow" onclick="this.classList.toggle('open')"><b>How?</b><div class="questionAnswer">${n.howQ}</div></div></div><p class="source">Source basis: ${n.source}</p>`; box.classList.add('show'); box.scrollIntoView({behavior:'smooth',block:'center'});}
